@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllExportCore", "DllExportCore\DllExportCore.csproj", "{3FC021CC-8885-4A80-A85E-9C63F201987D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DllExportCore.MsBuild", "DllExportCore.MsBuild\DllExportCore.MsBuild.csproj", "{359BEB90-FC3B-4308-A13A-4ECD98A5CED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{3A32C4C1-3AD8-476F-943B-B1B6ED1A9528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3FC021CC-8885-4A80-A85E-9C63F201987D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FC021CC-8885-4A80-A85E-9C63F201987D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FC021CC-8885-4A80-A85E-9C63F201987D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359BEB90-FC3B-4308-A13A-4ECD98A5CED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359BEB90-FC3B-4308-A13A-4ECD98A5CED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359BEB90-FC3B-4308-A13A-4ECD98A5CED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359BEB90-FC3B-4308-A13A-4ECD98A5CED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A32C4C1-3AD8-476F-943B-B1B6ED1A9528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A32C4C1-3AD8-476F-943B-B1B6ED1A9528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A32C4C1-3AD8-476F-943B-B1B6ED1A9528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A32C4C1-3AD8-476F-943B-B1B6ED1A9528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
